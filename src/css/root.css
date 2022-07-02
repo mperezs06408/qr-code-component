@@ -1,0 +1,26 @@
+/*
+Design widths
+- Mobiles: 375px
+- Desktop 1440px
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*Global variables*/
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray-color: hsl(212, 45%, 89%);
+    --grayish-blue-color: hsl(220, 15%, 55%);
+    --dark-blue-color: hsl(218, 44%, 22%);
+}
+
+/*Typography*/
+
+html, body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--light-gray-color);
+}
+
+h1{ font-weight: 700; color:var(--dark-blue-color)}
+p {font-weight: 400;color:var(--grayish-blue-color)}
