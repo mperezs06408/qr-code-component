@@ -17,9 +17,15 @@ Design widths
 /*Typography*/
 
 html, body {
+    position:relative;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray-color);
+    width: 100vw;
+    height: 100vh;
+    padding:0;
+    border:none;
+    margin: 0;
 }
 
 h1{ font-weight: 700; color:var(--dark-blue-color)}
